@@ -12,3 +12,5 @@ arrest_events_raw['arrest_date_event'] = pd.to_datetime(arrest_events_raw.filing
 # Save both data frames to `data/` -> 'pred_universe_raw.csv', 'arrest_events_raw.csv'
 pred_universe_raw.to_csv("data/pred_universe_raw.csv", index=False)
 arrest_events_raw.to_csv("data/arrest_events_raw.csv", index=False)
+
+print("did something")
